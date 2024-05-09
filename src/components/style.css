@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-container{
+  padding: 19px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1); /* Change the values as needed */
+
+}
+
+.nav-logo{
+  width: 190px;
+}
+.nav-btns{
+ 
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+.nav-btn{
+  padding: 5px 10px;
+  padding-right: 5px;
+  width: 120px;
+  color: red;
+  font-weight: bolder;
+  font-size: 15px;
+  margin:0px 5px;
+  border-radius: 5px;
+  background-color: white;
+  left: 10px;
+  top: 0px;
+  cursor: pointer;
+
+}
+.nav-btn:hover{
+  color: white;
+  background-color: red;
+}
+
+.middle-container{
+  width: 100%;
+  padding: 39px 0px ;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-img{
+  width: 70%;
+}
+.star-image{
+  width: 15px;
+
+}
+.rating{
+  font-weight: 500;
+}
+
+.title-content{
+  margin: 0px;
+  padding: 0px;
+  margin: 4px 0px;
+  color: rgb(56, 51, 51);
+}
+.price-content{
+  margin: 0px;
+  padding: 0px;
+  margin: 4px 0px;
+}
+.price-val{
+  font-weight: bolder;
+}
+
+.cardabove-container{
+  padding: 10px 20px;
+  margin-bottom: 18px;
+}
+.ca-heading{
+  font-size: 42px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ca-content{
+   font-size: 25px;
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 8px;
+  height: 430px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.3); /* Adjusted box shadow */
+}
+.cards-list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+.card-container {
+  flex: 0 0 auto; 
+  width: 320px;
+  height: 550px;
+  margin: 10px 0;
+  margin-left: 30px;
+  box-sizing: border-box;
+  position: relative;
+  
+}
+.card-sold{
+  padding: 5px 10px;
+  padding-right: 5px;
+  width: 90px;
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: white;
+  left: 10px;
+  top: 0px;
+  cursor: pointer;
+}
